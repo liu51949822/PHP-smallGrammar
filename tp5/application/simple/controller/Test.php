@@ -3,7 +3,7 @@
 namespace  app\simple\controller;
 use think\Request;
 class Test{
- public  function  hello(){
+ public  function  hello($a,$b){
 //     $id= Request::instance()->param('id');
 //     $name = Request::instance()->param('name');
 $all =  Request::instance()->param();

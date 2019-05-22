@@ -23,6 +23,7 @@
 use  think\Route;
 //Route::rule('hello','simple/Test/hello','post');
 Route::post('hello','simple/Test/hello');
+Route::get( 'banner/:id','api/v1.Banner/getBanner');
 
 
 
